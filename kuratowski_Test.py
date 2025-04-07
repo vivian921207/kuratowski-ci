@@ -1,5 +1,5 @@
 import unittest
-from kuratowski_2 import is_5, is_3, cut_two
+from kuratowski import is_5, is_3, cut_two
 
 def build_empty_graph(n):
     return [[False] * (n + 1) for _ in range(n + 1)]
